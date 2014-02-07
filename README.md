@@ -8,6 +8,11 @@ Helpers to generate breadcrumbs
 TODO
 
 
+## Testing
+
+    rspec
+
+
 ## License
 
 Copyright 2014 Rocodev

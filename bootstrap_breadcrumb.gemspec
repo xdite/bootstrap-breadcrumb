@@ -15,5 +15,13 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.0.2"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails", "~> 2.14.1"
+  s.add_development_dependency "capybara", "~> 2.2.1"
+
+  s.add_development_dependency "pry", "~> 0.9.12.6"
+
+  #
+  # Dummy app
+  #
+  s.add_development_dependency "sqlite3", "~> 1.3.8"
 end
