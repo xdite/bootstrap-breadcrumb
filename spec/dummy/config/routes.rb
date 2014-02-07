@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  root :to => "pages#welcome"
 
-  mount BootstrapBreadcrumb::Engine => "/bootstrap_breadcrumb"
+  resources :pages, :only => :index do
+    collection do
+      get :welcome
+    end
+  end
 end

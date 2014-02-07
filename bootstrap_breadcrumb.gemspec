@@ -24,4 +24,11 @@ Gem::Specification.new do |s|
   # Dummy app
   #
   s.add_development_dependency "sqlite3", "~> 1.3.8"
+
+  s.add_development_dependency "jquery-rails",   "~> 3.1.0"
+  s.add_development_dependency "sass-rails",     "~> 4.0.1"
+  s.add_development_dependency "bootstrap-sass", "~> 3.1.0.2"
+
+  s.add_development_dependency "better_errors",     "~> 1.1.0"
+  s.add_development_dependency "binding_of_caller", "~> 0.7.2"
 end
